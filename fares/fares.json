@@ -2302,6 +2302,42 @@
                     "type": "fixed",
                     "amount": 25.0
                 }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 870,
+                            "rides": 60
+                        },
+                        {
+                            "price": 1380,
+                            "rides": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 435,
+                            "rides": null,
+                            "duration": "1mo"
+                        }
+                    ]
+                }
             }
         ],
         "free_categories": [
@@ -2323,6 +2359,100 @@
                 "pricing": {
                     "type": "fixed",
                     "amount": 23.0
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 800,
+                            "rides": 60
+                        },
+                        {
+                            "price": 1270,
+                            "rides": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 400,
+                            "rides": null,
+                            "duration": "1mo"
+                        }
+                    ]
+                }
+            }
+        ],
+        "free_categories": [
+            {
+                "category": "child_upto7",
+                "conditions": null
+            }
+        ]
+    },
+    {
+        "effective_from": "01.01.2010",
+        "effective_to": "31.01.2011",
+        "payment_methods": [
+            {
+                "name": "cash",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 22.0
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 800,
+                            "rides": 60
+                        },
+                        {
+                            "price": 1270,
+                            "rides": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 400,
+                            "rides": null,
+                            "duration": "1mo"
+                        }
+                    ]
                 }
             }
         ],
