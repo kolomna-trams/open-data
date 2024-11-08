@@ -2522,8 +2522,8 @@
         ]
     },
     {
-        "effective_from": "01.01.2009",
-        "effective_to": "31.12.2009",
+        "effective_from": "01.01.2008",
+        "effective_to": "31.12.2008",
         "payment_methods": [
             {
                 "name": "cash",
@@ -2569,6 +2569,39 @@
                             "duration": "1mo"
                         }
                     ]
+                }
+            }
+        ],
+        "free_categories": [
+            {
+                "category": "child_upto7",
+                "conditions": null
+            }
+        ]
+    },
+    {
+        "effective_from": "01.04.2007",
+        "effective_to": "31.12.2007",
+        "payment_methods": [
+            {
+                "name": "cash",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 15.0
+                }
+            },
+            {
+                "name": "cash",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 7.5
                 }
             }
         ],
