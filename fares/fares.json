@@ -2746,5 +2746,60 @@
                 "conditions": null
             }
         ]
+    },
+    {
+        "effective_from": "25.11.2002",
+        "effective_to": "24.04.2004",
+        "payment_methods": [
+            {
+                "name": "cash",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 7.0
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 310,
+                            "rides": null,
+                            "duration": "1mo"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "e_card",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "pass",
+                    "tariffs": [
+                        {
+                            "price": 155,
+                            "rides": null,
+                            "duration": "1mo"
+                        }
+                    ]
+                }
+            }
+        ],
+        "free_categories": [
+            {
+                "category": "child_upto7",
+                "conditions": null
+            }
+        ]
     }
 ]
