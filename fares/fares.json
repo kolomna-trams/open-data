@@ -2801,5 +2801,27 @@
                 "conditions": null
             }
         ]
+    },
+    {
+        "effective_from": "25.11.2001",
+        "effective_to": "24.11.2002",
+        "payment_methods": [
+            {
+                "name": "cash",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 5.0
+                }
+            }
+        ],
+        "free_categories": [
+            {
+                "category": "child_upto7",
+                "conditions": null
+            }
+        ]
     }
 ]
