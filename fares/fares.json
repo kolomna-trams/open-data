@@ -1,7 +1,153 @@
 [
     {
-        "effective_from": "01.01.2025",
+        "effective_from": "01.06.2025",
         "effective_to": null,
+        "payment_methods": [
+            {
+                "name": "bank_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 64.0
+                }
+            },
+            {
+                "name": "strelka_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "tiered",
+                    "tiers": [
+                        {
+                            "from": 1,
+                            "to": 10,
+                            "amount": 63.0
+                        },
+                        {
+                            "from": 11,
+                            "to": 20,
+                            "amount": 58.59
+                        },
+                        {
+                            "from": 21,
+                            "to": 30,
+                            "amount": 54.18
+                        },
+                        {
+                            "from": 31,
+                            "to": 40,
+                            "amount": 49.77
+                        },
+                        {
+                            "from": 41,
+                            "to": 50,
+                            "amount": 45.36
+                        },
+                        {
+                            "from": 51,
+                            "to": null,
+                            "amount": 40.95
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "troika_card",
+                "eligible_passengers": [
+                    "all"
+                ],
+                "pricing": {
+                    "type": "tiered",
+                    "tiers": [
+                        {
+                            "from": 1,
+                            "to": 10,
+                            "amount": 63.0
+                        },
+                        {
+                            "from": 11,
+                            "to": 20,
+                            "amount": 58.59
+                        },
+                        {
+                            "from": 21,
+                            "to": 30,
+                            "amount": 54.18
+                        },
+                        {
+                            "from": 31,
+                            "to": 40,
+                            "amount": 49.77
+                        },
+                        {
+                            "from": 41,
+                            "to": 50,
+                            "amount": 45.36
+                        },
+                        {
+                            "from": 51,
+                            "to": null,
+                            "amount": 40.95
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "student_strelka_card",
+                "eligible_passengers": [
+                    "student",
+                    "schoolchild"
+                ],
+                "pricing": {
+                    "type": "tiered",
+                    "tiers": [
+                        {
+                            "from": 1,
+                            "to": 35,
+                            "amount": 31.5
+                        },
+                        {
+                            "from": 36,
+                            "to": 200,
+                            "amount": 0.63
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "yellow_strelka_card",
+                "eligible_passengers": [
+                    "military_pensioners"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 31.5
+                }
+            },
+            {
+                "name": "social_card",
+                "eligible_passengers": [
+                    "pensioners"
+                ],
+                "pricing": {
+                    "type": "fixed",
+                    "amount": 0.0
+                }
+            }
+        ],
+        "free_categories": [
+            {
+                "category": "child_upto7",
+                "conditions": null
+            }
+        ]
+    },
+    {
+        "effective_from": "01.01.2025",
+        "effective_to": "31.05.2025",
         "payment_methods": [
             {
                 "name": "bank_card",
